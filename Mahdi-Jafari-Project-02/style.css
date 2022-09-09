@@ -1,0 +1,100 @@
+
+.mahdi-pic{
+    width:200px;
+    border-radius:50%
+}
+h1{
+    margin:0
+}
+.center{
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+.intro-bg{
+    background-color: #c4c4c4;
+    padding:20px 0 20px 0;
+}
+.intro-bg div:first-child{
+    text-align:center ;
+}
+.id ul li img {
+    width: 25px;
+    margin-right: 5px;
+}
+.id ul li {
+    display: flex;
+    align-items: center;
+}
+.id {
+    display: flex;
+    justify-content: start;
+    padding-left: 0;
+}
+ul {
+    padding: 0;
+    padding-left: 20px;
+}
+.skills{
+    background-color: #e7e7e7;
+    padding:10px 0 200px 20px;
+}
+h2{
+    margin: 0;
+}
+.skills div div:first-child div{
+    width: 200px;
+    height:5px;
+    background-color: #999999;
+    padding-left: 0;
+}
+.skills div div:first-child h2{
+    color: #999999;
+}
+.section2{
+    padding-left: 20px;
+    padding-top: 40px;
+    border-right: 1px solid #999;
+    border-top:1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.section2 div div:first-child h2{
+    color: #999999;
+
+}
+.section2 div div:first-child div{
+    background-color: #999999;
+    width: 200px;
+    height: 5px;
+}
+.section2 div ul li div{
+    display: flex ;
+    align-items: center;
+}
+.section2 h3{
+    margin: 10px 0 10px 0 ;
+
+}
+.skill-sec ul li progress {
+    margin: 5px 0 3px 20px;
+}
+.skill-sec ul li div{
+    font-size: 18px;
+}
+.tools-sec ul li progress{
+    margin: 5px 0 3px 20px;
+}
+.tools-sec ul li progress::-webkit-progress-bar{
+    background-color: gray;
+    color: #999;
+}
+.tools-sec ul li progress::-webkit-progress-value{
+    background-color: gray;
+    color: #999;
+}
+.tools-sec ul li div{
+    font-size: 18px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Hotel</h1>
+    </div>
+    <div>
+        <h3>
+            Please complete this form to send us your feedback
+        </h3>
+    </div>
+    <form action="./index.php" method="POST">
+        <fieldset>
+            <legend>
+                Feedback Form
+            </legend>
+            <div>
+                <strong>Name</strong>
+                <br>
+                <div><input type="text" placeholder="first name"/></div>
+                <br>
+                <div><input type="text" placeholder="last name"/></div>
+                <br>
+            </div>
+            <div>
+                <div>
+                    <label for="age"><strong> Age</strong></label>
+                </div>
+                <div>
+                    <input type="number" min="18">
+                </div>
+            </div>
+            <br>
+            <div>
+                <div><label for="mail"><strong>Email</strong></label></div>
+                <input id="mail" type="mail" placeholder="mail"/>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <div><label for="date"><strong>Booking In</strong></label></div>
+                    <input id="date" type="datetime-local" name="book"/>
+                </div>
+                <br>
+                <div>
+                    <div><label for="date1"><strong>Checking Out</strong></label></div>
+                    <input id="date1" type="datetime-local" name="check"/>
+                </div>
+                <br>
+                <div>
+                    <strong> Bing present at Hotel</strong>
+                    <br>
+                    <label>Day1</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day2</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day3</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day4</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day5</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day6</label>
+                    <input type="checkbox">
+                    <br>
+                    <label>Day7</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="select"><strong>Satisfaction</strong></label>
+                </div>
+                <div>
+                    <label for="great">Great</label>
+                   <input id="great" type="radio" name="Satisfaction">
+                   <label for="good">Good</label>
+                   <input id="good" type="radio" name="Satisfaction">
+                   <label for="bad">Bad</label>
+                   <input id="bad" type="radio" name="Satisfaction">
+                   <label for="worst">Worst</label>
+                   <input id="worst" type="radio" name="Satisfaction">
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="text-area"><strong> Anything Els?</strong></label>
+                </div>
+                <textarea name="text-area" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" value="send">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
